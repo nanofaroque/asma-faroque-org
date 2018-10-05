@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class AsmaFaroquePage {
+export class AppPage {
   navigateTo() {
     return browser.get('/');
   }

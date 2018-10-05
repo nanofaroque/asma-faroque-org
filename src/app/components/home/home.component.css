@@ -1,0 +1,420 @@
+.main-slider{
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.main-slider img{
+  width: 100%;
+  height: 450px;
+}
+
+
+.main-banner{
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.main-banner img{
+  width: 100%;
+  height: 450px;
+}
+.main-banner-text {
+  position: absolute;
+  text-align: center;
+
+}
+.main-banner-text h3{
+  color: #FC713A;
+  margin-top: 7%;
+}
+.main-banner-text p{
+  color: white;
+  padding: 50px 10%;
+  font-weight: bold;
+}
+
+.main-sidebar{
+  position: relative;
+  overflow: hidden;
+  padding: 10px 8%;
+  /*padding-top: 10px;*/
+  background: #E1EFFA;
+}
+.left-sidebar{
+  float: left;
+  width: 50%;
+}
+
+.left-sidebar video{
+  width:90%;
+}
+.right-sidebar{
+  float: right;
+  width: 50%;
+  padding-top: 5%;
+}
+.right-sidebar p{
+  color: #FC713A;
+}
+.right-sidebar h3{
+  color: #FC713A;
+  text-align: center;
+  border-top: #BB2A31 2px solid;
+  border-bottom: #BB2A31 4px solid;
+}
+
+.quotes{
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.quotes img{
+  width: 100%;
+  height: 450px;
+}
+.main-quotes-text{
+  position: absolute;
+  text-align: center;
+  margin-top: 15%;
+}
+.main-quotes-text h3{
+  color: white;
+  padding: 0 20%;
+}
+.main-quotes-text h3{
+  color: white;
+  padding: 0 10%;
+  float: right;
+  margin-right: 10%;
+}
+
+
+.contact{
+  background: #353C10;
+  display: block;
+}
+
+.contact:after{
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.contact h2{
+  text-align: center;
+  color: white;
+}
+.contact-form{
+  padding: 0 18%;
+}
+.person-info{
+
+}
+.message-box{
+
+}
+
+.row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+.submit-button{
+  margin-top: 7%;
+  padding-bottom: 10px;
+}
+.submit-button button{
+  display: block;
+  margin-left: 45%;
+}
+
+
+@media screen and (max-width: 768px){
+  .main-slider{
+    max-height: 400px;
+    overflow: hidden;
+  }
+
+  .main-slider img {
+    width: 100%;
+    height: 250px;
+  }
+  .main-slider .carousel-caption h1{
+    color: white;
+    padding-bottom: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .main-slider .carousel-caption p{
+    margin-bottom: 0;
+    width: 100%;
+    background: #0D450E;
+    color: white;
+    border-radius: 15%;
+  }
+
+  /*main banner section*/
+
+  .main-banner{
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  .main-banner img{
+    width: 100%;
+    height: 250px;
+  }
+  .main-banner-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 0;
+
+  }
+  .main-banner-text h3{
+    color: #FC713A;
+    font-size: 20px;
+    padding: 0 10%;
+  }
+  .main-banner-text p{
+    color: white;
+    padding: 0 25%;
+  }
+
+
+
+  /*main sidebar design*/
+
+  .main-sidebar{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 8%;
+    background: #E1EFFA;
+  }
+  .left-sidebar{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .left-sidebar video{
+    width: 100%;
+  }
+  .right-sidebar{
+    float: right;
+    width: 80%;
+    margin-right: 10%;
+  }
+  .right-sidebar p{
+    color: #FC713A;
+    /*width: 70%;*/
+
+  }
+  .right-sidebar h3{
+    color: #FC713A;
+    text-align: center;
+    border-top: #BB2A31 2px solid;
+    border-bottom: #BB2A31 4px solid;
+  }
+
+
+
+  /*Quotes part*/
+
+
+  .quotes{
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  .quotes img{
+    width: 100%;
+    height: 350px;
+  }
+  .main-quotes-text{
+    position: absolute;
+    text-align: center;
+    margin-top: 25%;
+  }
+  .main-quotes-text h3{
+    color: white;
+    padding: 0 20%;
+    font-size: 20px;
+  }
+  .main-quotes-text h3{
+    color: white;
+    padding: 0 10%;
+    float: right;
+    margin-right: 10%;
+    font-size: 20px;
+    text-align: start;
+  }
+
+
+  /*Contact part*/
+
+
+  .contact{
+    background: #353C10;
+    display: block;
+  }
+
+  .contact:after{
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  .contact h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 360px){
+  .main-slider{
+    max-height: 300px;
+    overflow: hidden;
+  }
+
+  .main-slider img {
+    width: 100%;
+    height: 200px;
+  }
+  .main-slider h3{
+    font-size: 20px;
+  }
+
+
+  /*main banner section*/
+
+  .main-banner{
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  .main-banner img{
+    width: 100%;
+    height: 200px;
+  }
+  .main-banner-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 8%;
+
+  }
+  .main-banner-text h3{
+    color: #FC713A;
+    font-size: 20px;
+    padding: 0 10%;
+  }
+  .main-banner-text p{
+    color: white;
+    padding: 0 25%;
+
+  }
+
+
+  /*main sidebar design*/
+
+  .main-sidebar{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 8%;
+    background: #E1EFFA;
+  }
+  .left-sidebar{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .left-sidebar video{
+    width: 100%;
+  }
+  .right-sidebar{
+    float: right;
+    width: 80%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+  .right-sidebar p{
+    color: #FC713A;
+
+  }
+  .right-sidebar h3{
+    color: #FC713A;
+    font-size: 20px;
+    text-align: center;
+    border-top: #BB2A31 2px solid;
+    border-bottom: #BB2A31 4px solid;
+  }
+
+  /*Quotes part*/
+
+
+  .quotes{
+    max-height: 368px;
+    overflow: hidden;
+    position: relative;
+  }
+  .quotes img{
+    width: 100%;
+    height: 300px;
+  }
+  .main-quotes-text{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+  }
+  .main-quotes-text h3{
+    color: white;
+    padding: 0 20%;
+    font-size: 15px;
+  }
+  .main-quotes-text h3{
+    color: white;
+    padding: 0 10%;
+    float: right;
+    margin-right: 10%;
+    font-size: 15px;
+    text-align: start;
+  }
+
+}
+.carousel-caption{
+  /*position: absolute;*/
+  /*right: 15%;*/
+  /*bottom: 20px;*/
+  /*left: 15%;*/
+  /*z-index: 10;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+  /*color: #fff;*/
+  /*text-align: center;*/
+  /*width: 100%;*/
+}
+.carousel-caption h1{
+  color: white;
+  padding-bottom: 17%;
+  padding-right: 55%;
+  text-align: initial;
+}
+
+.carousel-caption p{
+  margin-bottom: 5px;
+  width: 100%;
+  background: #0D450E;
+  color: white;
+  border-radius: 49%;
+}

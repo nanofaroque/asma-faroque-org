@@ -1,0 +1,77 @@
+<div class="main-slider">
+  <ngb-carousel *ngIf="sliderArray.length">
+    <ng-template ngbSlide *ngFor="let slider of sliderArray">
+      <img [src]="slider.img" alt="Random first slide">
+      <div class="carousel-caption ">
+        <h1>{{slider.text}}</h1>
+        <p>Asma Faroque Foundation is seeking local students for study Fund</p>
+      </div>
+    </ng-template>
+
+  </ngb-carousel>
+</div>
+
+
+<div class="main-banner">
+  <div class="main-banner-text">
+    <h3>Every person should grow up in a better world</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+  <img src="assets/images/banner.png" alt="banner image">
+</div>
+
+
+
+
+
+
+<div class="main-sidebar">
+  <div class="left-sidebar">
+    <video controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="right-sidebar">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+    <h3>Our Initiatives</h3>
+  </div>
+</div>
+
+<div class="quotes">
+  <div class="main-quotes-text">
+    <h3>“The only way that we reach out full human potential is if we’re
+      able to unlock the gifts of every person around the world.”</h3>
+    <h3>-Omar Faroque and Asma</h3>
+  </div>
+  <img src="assets/images/quotes-image.png" alt="qutes-image">
+</div>
+
+<div class="contact">
+  <h2> Lorem Ipsum Contact title here</h2>
+    <form>
+      <div class="contact-form col-md-12 m-auto ">
+        <div class="person-info col-md-6 float-left">
+          <div class="row">
+            <input type="text" class="form-control" placeholder="Your name">
+          </div>
+          <div class="row">
+            <input type="text" class="form-control" placeholder="Your email">
+          </div>
+        </div>
+        <div class="message-box col-md-6 float-right">
+          <div class="row">
+            <textarea class="form-control" placeholder="Your Message" rows="3"></textarea>
+          </div>
+        </div>
+        <!--<div class="text-center submit-button">-->
+          <!--<button type="button" class="btn btn-info ">Send message</button>-->
+        <!--</div>-->
+      </div>
+      <div class=" submit-button">
+        <button type="button" class="btn btn-info ">Send message</button>
+      </div>
+
+    </form>
+</div>

@@ -1,0 +1,45 @@
+header{
+  background: #2B460A;
+  padding: 10px 10px;
+}
+
+header .logo {
+  color: #f7f7f7;
+}
+header h1{
+  margin-top: 0;
+  /*text-indent: -100000px;*/
+  /*background: url("./imagepath") no-repeat;*/
+  width: 200px;
+  float: left;
+}
+
+header nav{
+  float: right;
+}
+header:after{
+  display: block;
+  clear: both;
+  content: '';
+}
+header nav h2{
+  line-height: 0;
+  margin: 0;
+  text-indent: -100000px;
+}
+
+header nav li{
+  list-style-type: none;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+header nav li a{
+  text-decoration: none;
+  color: #f7f7f7;
+}
+header nav li a.active{
+  color: #00A551;
+}
