@@ -5,7 +5,7 @@
 
 .main-slider img{
   width: 100%;
-  height: 450px;
+  height: 500px;
 }
 
 
@@ -16,7 +16,7 @@
 }
 .main-banner img{
   width: 100%;
-  height: 450px;
+  height: auto;
 }
 .main-banner-text {
   position: absolute;
@@ -70,7 +70,7 @@
 }
 .quotes img{
   width: 100%;
-  height: 450px;
+  height: auto;
 }
 .main-quotes-text{
   position: absolute;
