@@ -19,7 +19,7 @@ footer ul li{
 footer ul li h3, p{
   color: white;
 }
-.social-item{
+.wrapper .social-item{
   clear: both;
   margin-left: 43%;
 

@@ -13,11 +13,12 @@ p, li,  h1, h2,h3,h4,h5 {
 
 body{
   background: #f7f7f7;
+
 }
 
-.wrapper{
-  width: 96%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2%;
-}
+/*.wrapper{*/
+  /*width: 96%;*/
+  /*max-width: 1200px;*/
+  /*margin: 0 auto;*/
+  /*padding: 0 2%;*/
+/*}*/
