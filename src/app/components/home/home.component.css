@@ -10,26 +10,25 @@
 
 
 .main-banner{
-  max-height: 500px;
+  padding: 100px 0;
   overflow: hidden;
   position: relative;
+  background: url("../../../assets/images/banner.png") no-repeat scroll center center / cover;
 }
 .main-banner img{
   width: 100%;
   height: auto;
 }
 .main-banner-text {
-  position: absolute;
   text-align: center;
 
 }
 .main-banner-text h3{
   color: #FC713A;
-  margin-top: 7%;
+  margin: 0 0 80px 0;
 }
 .main-banner-text p{
   color: white;
-  padding: 50px 10%;
   font-weight: bold;
   font-size: 18px;
 }
@@ -37,9 +36,8 @@
 .main-sidebar{
   position: relative;
   overflow: hidden;
-  padding: 10px 8%;
-  /*padding-top: 10px;*/
-  background: #E1EFFA;
+  background: #265527;
+  padding-top: 10px;
 }
 .left-sidebar{
   float: left;
@@ -52,7 +50,7 @@
 .right-sidebar{
   float: right;
   width: 50%;
-  padding-top: 5%;
+  padding-right: 50px;
 }
 .right-sidebar p{
   color: #FC713A;
@@ -89,6 +87,14 @@
   margin-right: 10%;
 }
 
+.form-area{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-area form{
+ margin-top: 50px;
+}
 
 .contact{
   background: #353C10;
@@ -104,8 +110,10 @@
 .contact h2{
   text-align: center;
   color: white;
+
 }
 .contact-form{
+  overflow: hidden;
   padding: 0 18%;
 }
 .person-info{
@@ -127,8 +135,7 @@
 }
 
 .submit-button{
-  margin-top: 7%;
-  padding-bottom: 10px;
+  margin-top: 15px;
 }
 .submit-button button{
   display: block;

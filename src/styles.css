@@ -16,9 +16,7 @@ body{
 
 }
 
-/*.wrapper{*/
-  /*width: 96%;*/
-  /*max-width: 1200px;*/
-  /*margin: 0 auto;*/
-  /*padding: 0 2%;*/
-/*}*/
+.wrapper{
+  width: 985px;
+  margin: 0 auto;
+}
