@@ -160,5 +160,5 @@ a:hover {
 .video-size{
   width: 100%;
   /*height: -webkit-fill-available;*/
-  height: auto;
+  height: 100%;
 }
