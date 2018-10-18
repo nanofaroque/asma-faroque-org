@@ -17,13 +17,10 @@
       <div class="col-md-7">
         <div class="box">
           <div class="box__title">
-            <h2 class="text-primary mb-90">EVERY CHILD SHOULD GROW UP IN A BETTER WORLD</h2>
+            <h2 class="text-primary mb-90">{{bannerText.title}}</h2>
           </div>
           <div class="box__content">
-            <p class="text-white font-w500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-              but also the leap into electronic typesetting, remaining</p>
+            <p class="text-white font-w500">{{bannerText.description}}</p>
           </div>
         </div>
       </div>
@@ -34,7 +31,7 @@
 <section class="video-promo bg-green py-100">
   <div class="fullwidth-video-bg bg-style" >
       <video controls class="video-size">
-        <source src="assets/educationalvideo.mp4" type="video/mp4">
+        <source [src]="sidebarContent.leftSidebar.video" type="video/mp4">
         Your browser does not support the video tag.
       </video>
   </div>
@@ -43,7 +40,7 @@
       <div class="col-lg-6">
         <div class="box text-center">
           <div class="box__content">
-            <p class="text-primary">Learn more about out mission and our commitment to a better future for our children </p>
+            <p class="text-primary">{{sidebarContent.rightSidebar.title}}</p>
             <a href="#" class="btn-borded mt-15">OUR INITIATIVES</a>
           </div>
         </div>
@@ -58,9 +55,8 @@
       <div class="col-md-8">
         <div class="box">
           <div class="box__content">
-            <p class="text-white mb-60">“The only way that we reach out full human potential is if we’re able to unlock the gifts of
-              every person around the world.”</p>
-            <p class="text-white text-right">-Omar Faroque and Asma Omar</p>
+            <p class="text-white mb-60">{{quotes.title}}</p>
+            <p class="text-white text-right">{{quotes.author}}</p>
           </div>
         </div>
       </div>
@@ -74,8 +70,7 @@
       <div class="col-lg-12">
         <div class="box">
           <div class="box__title text-center text-white mb-90">
-            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s,</h2>
+            <h2>{{contact.title}}</h2>
           </div>
           <div class="box__content">
             <form>
