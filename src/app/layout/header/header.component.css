@@ -15,7 +15,7 @@ header h1{
 }
 
 header nav{
-  float: right;
+  /*float: right;*/
 }
 header:after{
   display: block;
@@ -40,65 +40,9 @@ header nav li a{
   text-decoration: none;
   color: #f7f7f7;
 }
+/*
 header nav li a.active{
   color: #00A551;
 }
+*/
 
-@media screen and (max-width: 980px){
-
-  header .logo {
-    color: #f7f7f7;
-    padding-left: 100px;
-  }
-
-  header nav ul{
-    padding-right: 200px;
-  }
-
-
-}
-
-@media screen and (max-width: 780px){
-
-  header .logo {
-    color: #f7f7f7;
-    padding-left: 100px;
-  }
-
-  header nav ul{
-    padding-right: 300px;
-  }
-
-
-}
-
-@media screen and (max-width: 680px){
-
-  header .logo {
-    color: #f7f7f7;
-    padding-left: 100px;
-  }
-
-  header nav ul{
-    padding-right: 400px;
-  }
-
-}
-@media screen and (max-width: 560px){
-
-  header .logo {
-    color: #f7f7f7;
-    padding-left: 113px;
-    margin: auto;
-  }
-
-  header nav {
-    clear: both;
-    float: unset;
-    margin-left: 120px;
-  }
-  header nav ul{
-    padding-right: 400px;
-  }
-
-}

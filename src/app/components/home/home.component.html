@@ -11,65 +11,105 @@
   </ngb-carousel>
 </div>
 
+  <!--<section class="slider bg-style py-100 text-center" style="background-image: url(../../../assets/images/slide1.png)">
+    <ngb-carousel *ngIf="sliderArray.length">
+      <ng-template ngbSlide *ngFor="let slider of sliderArray">
+        <img [src]="slider.img" alt="Random first slide">
+        <div class="carousel-caption ">
+          <h1>{{slider.text}}</h1>
+          <p>Asma Faroque Foundation is seeking local students for study Fund</p>
+        </div>
+      </ng-template>
 
-<div class="main-banner">
-  <div class="main-banner-text wrapper">
-    <h3>Every person should grow up in a better world</h3>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  </div>
-</div>
-
-
-
-
-
-
-<div class="main-sidebar">
-  <div class="left-sidebar">
-    <video controls="controls">
-      <source src="assets/educationalvideo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div class="right-sidebar">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-    <h3>Our Initiatives</h3>
-  </div>
-</div>
-
-<div class="quotes">
-  <div class="main-quotes-text">
-    <h3>“The only way that we reach out full human potential is if we’re
-      able to unlock the gifts of every person around the world.”</h3>
-    <h3>-Omar Faroque and Asma</h3>
-  </div>
-  <img src="assets/images/quotes-image.png" alt="qutes-image">
-</div>
-
-<div class="contact form-area">
-  <h2> Lorem Ipsum Contact title here</h2>
-    <form>
-      <div class="contact-form col-md-12 m-auto ">
-        <div class="person-info col-md-6 float-left">
-          <div class="row">
-            <input type="text" class="form-control" placeholder="Your name">
+    </ngb-carousel>
+  </section>-->
+<section class="promo bg-style py-100 text-center" style="background-image: url(../../../assets/images/banner.png)">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7">
+        <div class="box">
+          <div class="box__title">
+            <h2 class="text-primary mb-90">EVERY CHILD SHOULD GROW UP IN A BETTER WORLD</h2>
           </div>
-          <div class="row">
-            <input type="text" class="form-control" placeholder="Your email">
+          <div class="box__content">
+            <p class="text-white font-w500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+              of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+              but also the leap into electronic typesetting, remaining</p>
           </div>
         </div>
-        <div class="message-box col-md-6 float-right">
-          <div class="row">
-            <textarea class="form-control" placeholder="Your Message" rows="3"></textarea>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="video-promo bg-green py-100">
+  <div class="fullwidth-video-bg bg-style" style="background-image: url(../../../assets/images/banner.png)">
+    <a class="mfp-iframe fullwidth-video-btn" href="https://www.youtube.com/watch?v=58aNe6842Tc">
+      <i class="fa fa-play"></i>
+    </a>
+  </div>
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-lg-6">
+        <div class="box text-center">
+          <div class="box__content">
+            <p class="text-primary">Learn more about out mission and our commitment to a better future for our children </p>
+            <a href="#" class="btn-borded mt-15">OUR INITIATIVES</a>
           </div>
         </div>
-        <!--<div class="text-center submit-button">-->
-          <!--<button type="button" class="btn btn-info ">Send message</button>-->
-        <!--</div>-->
       </div>
-      <div class=" submit-button">
-        <button type="button" class="btn btn-info ">Send message</button>
-      </div>
+    </div>
+  </div>
+</section>
 
-    </form>
-</div>
+<section class="testimonial bg-style py-100 text-center" style="background-image: url(../../../assets/images/quotes-image.png)">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="box">
+          <div class="box__content">
+            <p class="text-white mb-60">“The only way that we reach out full human potential is if we’re able to unlock the gifts of
+              every person around the world.”</p>
+            <p class="text-white text-right">-Omar Faroque and Asma Omar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact bg-olive py-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="box">
+          <div class="box__title text-center text-white mb-90">
+            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s,</h2>
+          </div>
+          <div class="box__content">
+            <form>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name*">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Email*">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <textarea class="form-control" rows="4" placeholder="Your Message*"></textarea>
+                </div>
+                <div class="col-lg-12 text-center">
+                  <button type="button" class="btn btn-primary mt-15">SEND MESSAGE</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

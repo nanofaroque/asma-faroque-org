@@ -1,22 +1,156 @@
-/* You can add global styles to this file, and also import other style files */
-*{
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-body, ul, li {
-  margin: 0;
-  padding: 0;
-}
-p, li,  h1, h2,h3,h4,h5 {
-  color: #4e4e4e;
+a,
+a:hover {
+  text-decoration: none;
 }
 
-body{
-  background: #f7f7f7;
-
+.text-primary {
+  color: #fc713a !important;
 }
 
-.wrapper{
-  width: 985px;
-  margin: 0 auto;
+.bg-green {
+  background-color: #103711;
+}
+.bg-olive {
+  background-color: #353c10;
+}
+
+.font-w500 {
+  font-weight: 500;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.bg-style {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-borded {
+  display: inline-block;
+  color: #fc713a;
+  border-top: 2px solid #bb2931;
+  border-bottom: 2px solid #bb2931;
+  padding: 10px 0;
+}
+.btn-borded:hover {
+  color: #fc713a;
+}
+
+.bg-style::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.header {
+  position: relative;
+}
+.header__top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 22;
+  width: 100%;
+}
+.header__top::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #305403;
+  opacity: 0.6;
+}
+
+.form-control {
+  background-color: #20261e;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.form-control:focus {
+  border: 1px solid transparent;
+  box-shadow: none;
+  background-color: #20261e;
+}
+
+.video-promo {
+  position: relative;
+}
+
+.fullwidth-video-bg {
+  border-radius: 4px;
+  box-shadow: 0 0 15px #222;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 43%;
+  margin-top: 15px;
+}
+.fullwidth-video-bg::after {
+  content: "";
+  position: absolute;
+  left: 3%;
+  top: 2%;
+  width: 95%;
+  height: 90%;
+  border: 1px solid #fff;
+}
+
+.fullwidth-video-btn {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  height: 80px;
+  line-height: 80px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  z-index: 22;
+  transition: all 0.3s ease 0s;
+}
+.fullwidth-video-btn:hover {
+  border-color: #fc713a;
+  color: #fc713a;
 }
