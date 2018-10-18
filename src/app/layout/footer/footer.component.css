@@ -1,0 +1,35 @@
+
+.social-item ul{
+
+}
+.social-item li{
+  list-style-type: none;
+  float: left;
+  padding-left: 15px;
+  font-size: 30px;
+  display: contents;
+}
+.social-item ul li {
+  padding-left: 20px;
+}
+.social-item  li i:hover{
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.facebook{
+  color: #365389;
+}
+.twitter{
+  color: #0092ca;
+}
+.google{
+  color: #de4d37;
+}
+.linkedin{
+  color: #007bb5;
+}
+.youtube{
+  color: #cd332d;
+}
