@@ -1,7 +1,7 @@
-header{
-  background: #2B460A;
-  padding: 10px 10px;
-}
+/*header{*/
+  /*background: #2B460A;*/
+  /*padding: 10px 10px;*/
+/*}*/
 
 header .logo {
   color: #f7f7f7;
@@ -40,9 +40,7 @@ header nav li a{
   text-decoration: none;
   color: #f7f7f7;
 }
-/*
 header nav li a.active{
   color: #00A551;
 }
-*/
 

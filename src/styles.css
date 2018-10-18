@@ -96,6 +96,8 @@ a:hover {
   height: 100%;
   background-color: #305403;
   opacity: 0.6;
+  padding-bottom: 55px;
+  z-index: -10000;
 }
 
 .form-control {
@@ -153,4 +155,10 @@ a:hover {
 .fullwidth-video-btn:hover {
   border-color: #fc713a;
   color: #fc713a;
+}
+
+.video-size{
+  width: 100%;
+  /*height: -webkit-fill-available;*/
+  height: auto;
 }
