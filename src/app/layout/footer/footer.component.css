@@ -6,16 +6,19 @@
   list-style-type: none;
   float: left;
   padding-left: 15px;
+  margin-right: 30px;
   font-size: 30px;
   display: contents;
 }
 .social-item ul li {
   padding-left: 20px;
+  margin-right: 30px;
 }
 .social-item  li i:hover{
   color: #ffffff;
   cursor: pointer;
   border: 1px solid;
+  margin-right: 20px;
 }
 
 .facebook{
